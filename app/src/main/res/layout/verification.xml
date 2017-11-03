@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    android:background="@color/pink">
+
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/whitelogo"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/imageView" />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:hint="Mobile Number"
+        android:textColorHint="@color/white"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"/>
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:hint="Verification code"
+        android:textColorHint="@color/white"
+        android:textAlignment="center" />
+
+        <Button
+            android:text="Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/button4"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@color/button"
+            android:padding="20dp"/>
+
+        <TextView
+            android:text="No account yet?  SIGN UP for free"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:id="@+id/textView"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+</LinearLayout>

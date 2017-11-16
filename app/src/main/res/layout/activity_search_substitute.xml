@@ -241,6 +241,16 @@ android:fillViewport="true">
             android:id="@+id/etSetailsSelect"
             android:background="@drawable/edit_text_style"/>
 
+        <Button
+            android:text="Post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button7"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_style"/>
+
     </LinearLayout>
 
 

@@ -18,7 +18,8 @@
         <activity android:name=".validation" />
         <activity android:name=".Registration" />
         <activity android:name=".NewsFeed" />
-        <activity android:name=".Welcome"></activity>
+        <activity android:name=".Welcome" />
+        <activity android:name=".SearchSubstitute"></activity>
     </application>
 
 </manifest>

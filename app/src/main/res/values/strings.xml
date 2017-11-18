@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">DoctorBari</string>
+
+    <string-array name="dummy_degrees">
+        <item>Select Degree</item>
+        <item>MBBS</item>
+        <item>FCPS</item>
+        <item>Intern</item>
+    </string-array>
+
+
+
 </resources>

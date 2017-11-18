@@ -19,7 +19,8 @@
         <activity android:name=".Registration" />
         <activity android:name=".NewsFeed" />
         <activity android:name=".Welcome" />
-        <activity android:name=".SearchSubstitute"></activity>
+        <activity android:name=".SearchSubstitute" />
+        <activity android:name=".PostPermanentJob"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.shakilpc.doctorbari.SearchPermanentJob">
+
+
+
+    <EditText
+        android:id="@+id/etStarting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Starting From" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/tvJobType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Job Type"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginRight="15dp"/>
+
+        <Spinner
+            android:id="@+id/JobType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/dummy_degrees"
+            android:background="@drawable/layoutstyle"/>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+
+        <TextView
+            android:id="@+id/tvLocationType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginRight="15dp"/>
+
+        <EditText
+            android:id="@+id/etLocationType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Type Location" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSaveSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save and Search"
+        android:background="@drawable/button_style"
+        android:textColor="#ffffff"
+        android:padding="15dp"
+        android:layout_gravity="center"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
+
+
+</ScrollView>

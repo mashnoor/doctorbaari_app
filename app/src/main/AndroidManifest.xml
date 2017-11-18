@@ -20,7 +20,8 @@
         <activity android:name=".NewsFeed" />
         <activity android:name=".Welcome" />
         <activity android:name=".SearchSubstitute" />
-        <activity android:name=".PostPermanentJob"></activity>
+        <activity android:name=".PostPermanentJob" />
+        <activity android:name=".SearchPermanentJob"></activity>
     </application>
 
 </manifest>

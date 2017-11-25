@@ -21,7 +21,8 @@
         <activity android:name=".Welcome" />
         <activity android:name=".SearchSubstitute" />
         <activity android:name=".PostPermanentJob" />
-        <activity android:name=".SearchPermanentJob"></activity>
+        <activity android:name=".SearchPermanentJob" />
+        <activity android:name=".Profile"></activity>
     </application>
 
 </manifest>

@@ -22,7 +22,10 @@
         <activity android:name=".SearchSubstitute" />
         <activity android:name=".PostPermanentJob" />
         <activity android:name=".SearchPermanentJob" />
-        <activity android:name=".Profile"></activity>
+        <activity android:name=".Profile" />
+        <activity android:name=".DoctorSignUp" />
+        <activity android:name=".InternDoctorSignUp" />
+        <activity android:name=".HospitalAuthoritySignUp"></activity>
     </application>
 
 </manifest>

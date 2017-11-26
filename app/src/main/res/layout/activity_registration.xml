@@ -26,47 +26,20 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginBottom="15dp">
+
+
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Sign Up With one click"
-                android:fontFamily="cursive"
-                android:textStyle="bold"
-                android:textSize="20dp"
-                android:layout_marginBottom="10dp"
-                android:textColor="#000000"
-                android:id="@+id/tvsignUpOneClick" />
-
-            <com.facebook.login.widget.LoginButton
-                android:id="@+id/login_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Alternative Sign Up"
-                android:layout_marginTop="10dp"
-                android:id="@+id/btAlterSignUp" />
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_gravity="center_vertical">
 
             <ImageView
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:src="@drawable/redlogo"
                 android:layout_marginLeft="80dp"
-                android:id="@+id/ivLogo" />
+                android:id="@+id/ivLogo"
+                android:layout_gravity="right"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -79,6 +52,189 @@
                 android:textColor="@color/pink"
                 android:id="@+id/tvMbbs" />
         </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="15dp">
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select with your degree"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginBottom="15dp"/>
+
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FCPS"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkedText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medicine" />
+
+            <CheckBox
+                android:id="@+id/checkedText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Surgery" />
+
+            <CheckBox
+                android:id="@+id/checkedText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Obstatic" />
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MS"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkedText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medicine" />
+
+            <CheckBox
+                android:id="@+id/checkedText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Surgery" />
+
+            <CheckBox
+                android:id="@+id/checkedText5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Obstatic" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkedText7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MRCP" />
+
+            <CheckBox
+                android:id="@+id/checkedText8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FRCP" />
+
+            <CheckBox
+                android:id="@+id/checkedText9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MRCS" />
+
+            <CheckBox
+                android:id="@+id/checkedText10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FRCS" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkedText11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Diploma" />
+
+            <CheckBox
+                android:id="@+id/checkedText12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="M.Phil" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkedText13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PGT" />
+
+            <CheckBox
+                android:id="@+id/checkedText14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FCGP" />
+
+            <CheckBox
+                android:id="@+id/checkedText15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CCD" />
+
+            <CheckBox
+                android:id="@+id/checkedText16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GUU" />
+
+            <CheckBox
+                android:id="@+id/checkedText17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MUU" />
+
+
+
+        </LinearLayout>
+
 
 
 
